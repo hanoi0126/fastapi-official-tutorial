@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "fastapi-official-tutorial"
+version = "0.1.0"
+description = ""
+authors = ["HirotoOsaka <ipocchi129@gmail.com>"]
+readme = "README.md"
+packages = [{include = "fastapi_official_tutorial"}]
+
+[tool.poetry.dependencies]
+python = "3.10.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
