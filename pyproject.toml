@@ -12,6 +12,7 @@ fastapi = "^0.109.2"
 uvicorn = {extras = ["standard"], version = "^0.27.0.post1"}
 pydantic = "^2.6.1"
 email-validator = "^2.1.0.post1"
+python-multipart = "^0.0.9"
 
 
 [build-system]
